@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FREE CRM Application Test Automation Test Suite">
+	<test name="Free CRM App Test Cases">
+	<parameter name="firstName" value="henry"/>
+	<parameter name="lastName" value="Peter"/>
+	<parameter name = "email"  value ="herg_peter@gmail.com"/>
+	
+		<classes>
+			<class name="com.crm.qa.TestCases.LoginPageTest"></class>
+			<class name="com.crm.qa.TestCases.HomePageTest"></class>
+			<class name="com.crm.qa.TestCases.ContactsPageTest"></class> 
+ 
+		</classes>
+	</test>
+</suite> 
